@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 7b72bf7aad4a8224290c96660381a2d0
+timeCreated: 1465052275
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArmA_L
+    100002: ArmA_R
+    100004: ArmB_L
+    100006: ArmB_L_end
+    100008: ArmB_R
+    100010: ArmB_R_end
+    100012: Clavicule_L
+    100014: Clavicule_R
+    100016: Guy
+    100018: //RootNode
+    100020: Guy_Armature
+    100022: Head
+    100024: Head_end
+    100026: LegA_L
+    100028: LegA_R
+    100030: LegB_L
+    100032: LegB_L_end
+    100034: LegB_R
+    100036: LegB_R_end
+    100038: Neck
+    100040: Pelvis_L
+    100042: Pelvis_R
+    100044: root
+    100046: SpineA
+    100048: SpineB
+    100050: SpineC
+    400000: ArmA_L
+    400002: ArmA_R
+    400004: ArmB_L
+    400006: ArmB_L_end
+    400008: ArmB_R
+    400010: ArmB_R_end
+    400012: Clavicule_L
+    400014: Clavicule_R
+    400016: Guy
+    400018: //RootNode
+    400020: Guy_Armature
+    400022: Head
+    400024: Head_end
+    400026: LegA_L
+    400028: LegA_R
+    400030: LegB_L
+    400032: LegB_L_end
+    400034: LegB_R
+    400036: LegB_R_end
+    400038: Neck
+    400040: Pelvis_L
+    400042: Pelvis_R
+    400044: root
+    400046: SpineA
+    400048: SpineB
+    400050: SpineC
+    4300000: Guy
+    7400000: Guy_Armature|Guy_Backwards
+    7400002: Guy_Armature|Guy_Idle
+    7400004: Guy_Armature|Guy_Run
+    7400006: Guy_Armature|Guy_TurnLeft
+    7400008: Guy_Armature|Guy_TurnRight
+    7400010: Guy_Armature|Guy_Walk
+    9500000: //RootNode
+    13700000: Guy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Guy_Armature|Guy_Backwards
+      takeName: Guy_Armature|Guy_Backwards
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Guy
+        weight: 1
+      - path: Guy_Armature
+        weight: 1
+      - path: Guy_Armature/root
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L/LegB_L_end
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R/LegB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L/ArmB_L_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R/ArmB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guy_Armature|Guy_Idle
+      takeName: Guy_Armature|Guy_Idle
+      firstFrame: 0
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Guy
+        weight: 1
+      - path: Guy_Armature
+        weight: 1
+      - path: Guy_Armature/root
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L/LegB_L_end
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R/LegB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L/ArmB_L_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R/ArmB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guy_Armature|Guy_Run
+      takeName: Guy_Armature|Guy_Run
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Guy
+        weight: 1
+      - path: Guy_Armature
+        weight: 1
+      - path: Guy_Armature/root
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L/LegB_L_end
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R/LegB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L/ArmB_L_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R/ArmB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guy_Armature|Guy_TurnLeft
+      takeName: Guy_Armature|Guy_TurnLeft
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Guy
+        weight: 1
+      - path: Guy_Armature
+        weight: 1
+      - path: Guy_Armature/root
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L/LegB_L_end
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R/LegB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L/ArmB_L_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R/ArmB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guy_Armature|Guy_TurnRight
+      takeName: Guy_Armature|Guy_TurnRight
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Guy
+        weight: 1
+      - path: Guy_Armature
+        weight: 1
+      - path: Guy_Armature/root
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L/LegB_L_end
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R/LegB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L/ArmB_L_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R/ArmB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guy_Armature|Guy_Walk
+      takeName: Guy_Armature|Guy_Walk
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Guy
+        weight: 1
+      - path: Guy_Armature
+        weight: 1
+      - path: Guy_Armature/root
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_L/LegA_L/LegB_L/LegB_L_end
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R
+        weight: 1
+      - path: Guy_Armature/root/Pelvis_R/LegA_R/LegB_R/LegB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_L/ArmA_L/ArmB_L/ArmB_L_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Clavicule_R/ArmA_R/ArmB_R/ArmB_R_end
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head
+        weight: 1
+      - path: Guy_Armature/root/SpineA/SpineB/SpineC/Neck/Head/Head_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
